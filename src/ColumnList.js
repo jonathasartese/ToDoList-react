@@ -27,7 +27,7 @@
 
   <meta name="viewport" content="width=device-width">
   
-  <title>live-codings-react-nanodegree/App.js at master · udacity/live-codings-react-nanodegree</title>
+  <title>live-codings-react-nanodegree/ColumnList.js at master · udacity/live-codings-react-nanodegree</title>
   <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
   <meta property="fb:app_id" content="1401488693436528">
@@ -36,10 +36,10 @@
     <meta content="https://avatars1.githubusercontent.com/u/1916665?s=400&amp;v=4" property="og:image" /><meta content="GitHub" property="og:site_name" /><meta content="object" property="og:type" /><meta content="udacity/live-codings-react-nanodegree" property="og:title" /><meta content="https://github.com/udacity/live-codings-react-nanodegree" property="og:url" /><meta content="Contribute to live-codings-react-nanodegree development by creating an account on GitHub." property="og:description" />
 
   <link rel="assets" href="https://assets-cdn.github.com/">
-  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6MjE2ODI2MzA4OjY4MGI2NjE3NjAyODhmNDA2MjM4NjM1YzMxYWZiYjEwNjRmYTI4YzI0MTk5MTRlYmQ3YjdjMjc0MGVlYWI3ZWQ=--9765aaf2bf8c271ad6f0f46ebcf391a63a5c7697">
+  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6MjE2ODI2MzA4OmYzZGI2NzJkYWJjMjA4MjYzZjhkZWIzYTJjZjEzNzZmNmIzZjdlMjk2NzAzYjk3OTlhNDliZDVmOTFkODI2ODU=--5fcb134dbd1e7d55a6d407375e580c6715b557e3">
   <meta name="pjax-timeout" content="1000">
   <link rel="sudo-modal" href="/sessions/sudo_modal">
-  <meta name="request-id" content="E014:2ED8:13005D:21BEC3:5A21B133" data-pjax-transient>
+  <meta name="request-id" content="C9DC:2ED7:F9B44:1C059B:5A21B151" data-pjax-transient>
   
 
   <meta name="selected-link" value="repo_source" data-pjax-transient>
@@ -49,7 +49,7 @@
 <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
     <meta name="google-analytics" content="UA-3769691-2">
 
-<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="https://collector.githubapp.com/github-external/browser_event" name="octolytics-event-url" /><meta content="E014:2ED8:13005D:21BEC3:5A21B133" name="octolytics-dimension-request_id" /><meta content="iad" name="octolytics-dimension-region_edge" /><meta content="iad" name="octolytics-dimension-region_render" /><meta content="5436333" name="octolytics-actor-id" /><meta content="jonathasartese" name="octolytics-actor-login" /><meta content="c5dddd7425cbdb7712c918f96dd0d30510e0195f5cd084cd568aa96e72c8c0b9" name="octolytics-actor-hash" />
+<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="https://collector.githubapp.com/github-external/browser_event" name="octolytics-event-url" /><meta content="C9DC:2ED7:F9B44:1C059B:5A21B151" name="octolytics-dimension-request_id" /><meta content="iad" name="octolytics-dimension-region_edge" /><meta content="iad" name="octolytics-dimension-region_render" /><meta content="5436333" name="octolytics-actor-id" /><meta content="jonathasartese" name="octolytics-actor-login" /><meta content="c5dddd7425cbdb7712c918f96dd0d30510e0195f5cd084cd568aa96e72c8c0b9" name="octolytics-actor-hash" />
 <meta content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" name="analytics-location" />
 
 
@@ -64,7 +64,7 @@
   <meta name="user-login" content="jonathasartese">
 
       <meta name="expected-hostname" content="github.com">
-    <meta name="js-proxy-site-detection-payload" content="OTk2ODhiZmJkN2E3YzMwZTM4NWIwYTFhODU1MDM5NjdlNDY5NDVkMzhlN2E2YzQ5Mjg0MWE1NGJjZmRjYjRkYnx7InJlbW90ZV9hZGRyZXNzIjoiMTg2LjIyOS42LjgyIiwicmVxdWVzdF9pZCI6IkUwMTQ6MkVEODoxMzAwNUQ6MjFCRUMzOjVBMjFCMTMzIiwidGltZXN0YW1wIjoxNTEyMTU3NDkyLCJob3N0IjoiZ2l0aHViLmNvbSJ9">
+    <meta name="js-proxy-site-detection-payload" content="N2M4MjQ3YWU4NmY2MWRjNWFhZmVkZTFlNTZmM2FiYTljMTNmYWYxODU3NWJjNThlODVhMWQ5ZTI0YWFmNTI0OHx7InJlbW90ZV9hZGRyZXNzIjoiMTg2LjIyOS42LjgyIiwicmVxdWVzdF9pZCI6IkM5REM6MkVENzpGOUI0NDoxQzA1OUI6NUEyMUIxNTEiLCJ0aW1lc3RhbXAiOjE1MTIxNTc1MjIsImhvc3QiOiJnaXRodWIuY29tIn0=">
 
     <meta name="enabled-features" content="UNIVERSE_BANNER,FREE_TRIALS">
 
@@ -81,7 +81,7 @@
   <meta content="1916665" name="octolytics-dimension-user_id" /><meta content="udacity" name="octolytics-dimension-user_login" /><meta content="99743746" name="octolytics-dimension-repository_id" /><meta content="udacity/live-codings-react-nanodegree" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="99743746" name="octolytics-dimension-repository_network_root_id" /><meta content="udacity/live-codings-react-nanodegree" name="octolytics-dimension-repository_network_root_nwo" /><meta content="false" name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" />
 
 
-    <link rel="canonical" href="https://github.com/udacity/live-codings-react-nanodegree/blob/master/react-fundamentals/1-comecando-com-react-solution/src/App.js" data-pjax-transient>
+    <link rel="canonical" href="https://github.com/udacity/live-codings-react-nanodegree/blob/master/react-fundamentals/1-comecando-com-react-solution/src/ColumnList.js" data-pjax-transient>
 
 
   <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
@@ -128,7 +128,7 @@
               <div class="header-search scoped-search site-scoped-search js-site-search" role="search">
   <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/udacity/live-codings-react-nanodegree/search" class="js-site-search-form" data-scoped-search-url="/udacity/live-codings-react-nanodegree/search" data-unscoped-search-url="/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
     <label class="form-control header-search-wrapper js-chromeless-input-container">
-        <a href="/udacity/live-codings-react-nanodegree/blob/master/react-fundamentals/1-comecando-com-react-solution/src/App.js" class="header-search-scope no-underline">This repository</a>
+        <a href="/udacity/live-codings-react-nanodegree/blob/master/react-fundamentals/1-comecando-com-react-solution/src/ColumnList.js" class="header-search-scope no-underline">This repository</a>
       <input type="text"
         class="form-control header-search-input js-site-search-focus js-site-search-field is-clearable"
         data-hotkey="s"
@@ -254,7 +254,7 @@
           Settings
         </a></li>
 
-        <li><!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/logout" class="logout-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="C9ylteqch7VxSzewsmcUF7CS6TAt1qB2n38mtq2Ygbxb3khp3wFUaszYMA+KXXlGwt8CEr66wrRlr+Vdf+BhUQ==" /></div>
+        <li><!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/logout" class="logout-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="2wTNtNpiQhSnRw09q8abDnRd37jZOVAJfo1F0Q6zyyaLBiBo7/+RyxrUCoKT/PZfBhA0mkpVMsuEXYY63Msryw==" /></div>
           <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
             Sign out
           </button>
@@ -265,7 +265,7 @@
 </ul>
 
 
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/logout" class="sr-only right-0" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="/qk8+S4GHH+G2eiaLtobpxSOZnFJvZ3NtZj+s1SVckquq9ElG5vPoDtK7yUW4Hb2ZsONU9rR/w9PSD1Yhu2Spw==" /></div>
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/logout" class="sr-only right-0" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="FtwqB7mEOT8hQLZLQ937AEcJQavxZeUWuKVRkV8QSsJG3sfbjBnq4JzTsfR755ZRNUSqiWIJh9RCdZJ6jWiqLw==" /></div>
           <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
             Sign out
           </button>
@@ -302,7 +302,7 @@
 
       <ul class="pagehead-actions">
   <li>
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="K2ifFdS3p2qwfrVKSHCducJNS3y159/pVQ2KIAQvYA4B6NcYiU8Mr5w3oZCN3ZV4x0U8TvUb0wXyRVSbNUf86Q==" /></div>      <input class="form-control" id="repository_id" name="repository_id" type="hidden" value="99743746" />
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="kPigKYLo+71e3Gk+Q/GelG5DYpqNeFBVOHov7I+nn5O6eOgk3xBQeHKVfeSGXJZVa0sVqM2EXLmfMvFXvs8DdA==" /></div>      <input class="form-control" id="repository_id" name="repository_id" type="hidden" value="99743746" />
 
         <div class="select-menu js-menu-container js-select-menu">
           <a href="/udacity/live-codings-react-nanodegree/subscription"
@@ -382,7 +382,7 @@
   <li>
     
   <div class="js-toggler-container js-social-container starring-container ">
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/udacity/live-codings-react-nanodegree/unstar" class="starred js-social-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="80y/CZ4oAF0tSGIIKsGOC6Z+yp+yiWux2o8hAeVWlIlEKJhnBuFNGueQHq3iONLwG5Eotqh3crQeEEiINvM7gg==" /></div>
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/udacity/live-codings-react-nanodegree/unstar" class="starred js-social-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="43+V1bw2RkziNuu3JuUql+j0M5pdloxoYYvJ81uBu4FUG7K7JP8LCyjulxLuHHZsVRvRs0dolW2lFKB6iCQUig==" /></div>
       <input type="hidden" name="context" value="repository"></input>
       <button
         type="submit"
@@ -397,7 +397,7 @@
           22
         </a>
 </form>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/udacity/live-codings-react-nanodegree/star" class="unstarred js-social-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="NiAe3o2SuQLWr2vMFMsan262WNW4nrdbxCCpQEwLTlcrd/UqcSPyWDW2R3Ku4cVvYLm8EebjCZteyESQGMtWFQ==" /></div>
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/udacity/live-codings-react-nanodegree/star" class="unstarred js-social-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="ZdIhsasBhNEqFyEn6lyhSYUKxQW37P3xCAd31uEZq6J4hcpFV7DPi8kODZlQdn65iwUhwemRQzGS75oGtdmz4A==" /></div>
       <input type="hidden" name="context" value="repository"></input>
       <button
         type="submit"
@@ -416,7 +416,7 @@
   </li>
 
   <li>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/udacity/live-codings-react-nanodegree/fork" class="btn-with-count" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="1963XIt8GhsZg6Ew5UfoAxDqSQVovSAZIPwhe9bNIAqvvha+FvGZ73a/kaS9L/bKOpMuT9lUd5TSyN20g4FF2g==" /></div>
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/udacity/live-codings-react-nanodegree/fork" class="btn-with-count" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="J5pfdpmGqI2xvB8MiqtPEtt7LW/SzQIxnfH6ose3SrRf+v6UBAsred6AL5jSw1Hb8QJKJWMkVbxvxQZtkvsvZA==" /></div>
             <button
                 type="submit"
                 class="btn btn-sm btn-with-count"
@@ -497,9 +497,9 @@
   <div class="repository-content">
 
     
-  <a href="/udacity/live-codings-react-nanodegree/blob/1bfe7cab3778afccc60b86b19c874a6d81e1012d/react-fundamentals/1-comecando-com-react-solution/src/App.js" class="d-none js-permalink-shortcut" data-hotkey="y">Permalink</a>
+  <a href="/udacity/live-codings-react-nanodegree/blob/1bfe7cab3778afccc60b86b19c874a6d81e1012d/react-fundamentals/1-comecando-com-react-solution/src/ColumnList.js" class="d-none js-permalink-shortcut" data-hotkey="y">Permalink</a>
 
-  <!-- blob contrib key: blob_contributors:v21:a55534a196fecd6cb490b979d94726ea -->
+  <!-- blob contrib key: blob_contributors:v21:37c1d112073982ebce914e8117cf3d89 -->
 
   <div class="file-navigation js-zeroclipboard-container">
     
@@ -541,7 +541,7 @@
 
 
             <a class="select-menu-item js-navigation-item js-navigation-open "
-               href="/udacity/live-codings-react-nanodegree/blob/drdpedroso/react-fundamentals/1-comecando-com-react-solution/src/App.js"
+               href="/udacity/live-codings-react-nanodegree/blob/drdpedroso/react-fundamentals/1-comecando-com-react-solution/src/ColumnList.js"
                data-name="drdpedroso"
                data-skip-pjax="true"
                rel="nofollow">
@@ -551,7 +551,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open selected"
-               href="/udacity/live-codings-react-nanodegree/blob/master/react-fundamentals/1-comecando-com-react-solution/src/App.js"
+               href="/udacity/live-codings-react-nanodegree/blob/master/react-fundamentals/1-comecando-com-react-solution/src/ColumnList.js"
                data-name="master"
                data-skip-pjax="true"
                rel="nofollow">
@@ -588,12 +588,12 @@
       <button aria-label="Copy file path to clipboard" class="js-zeroclipboard btn btn-sm BtnGroup-item tooltipped tooltipped-s" data-copied-hint="Copied!" type="button">Copy path</button>
     </div>
     <div class="breadcrumb js-zeroclipboard-target">
-      <span class="repo-root js-repo-root"><span class="js-path-segment"><a href="/udacity/live-codings-react-nanodegree"><span>live-codings-react-nanodegree</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a href="/udacity/live-codings-react-nanodegree/tree/master/react-fundamentals"><span>react-fundamentals</span></a></span><span class="separator">/</span><span class="js-path-segment"><a href="/udacity/live-codings-react-nanodegree/tree/master/react-fundamentals/1-comecando-com-react-solution"><span>1-comecando-com-react-solution</span></a></span><span class="separator">/</span><span class="js-path-segment"><a href="/udacity/live-codings-react-nanodegree/tree/master/react-fundamentals/1-comecando-com-react-solution/src"><span>src</span></a></span><span class="separator">/</span><strong class="final-path">App.js</strong>
+      <span class="repo-root js-repo-root"><span class="js-path-segment"><a href="/udacity/live-codings-react-nanodegree"><span>live-codings-react-nanodegree</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a href="/udacity/live-codings-react-nanodegree/tree/master/react-fundamentals"><span>react-fundamentals</span></a></span><span class="separator">/</span><span class="js-path-segment"><a href="/udacity/live-codings-react-nanodegree/tree/master/react-fundamentals/1-comecando-com-react-solution"><span>1-comecando-com-react-solution</span></a></span><span class="separator">/</span><span class="js-path-segment"><a href="/udacity/live-codings-react-nanodegree/tree/master/react-fundamentals/1-comecando-com-react-solution/src"><span>src</span></a></span><span class="separator">/</span><strong class="final-path">ColumnList.js</strong>
     </div>
   </div>
 
 
-  <include-fragment class="commit-tease" src="/udacity/live-codings-react-nanodegree/contributors/master/react-fundamentals/1-comecando-com-react-solution/src/App.js">
+  <include-fragment class="commit-tease" src="/udacity/live-codings-react-nanodegree/contributors/master/react-fundamentals/1-comecando-com-react-solution/src/ColumnList.js">
     <div>
       Fetching contributors&hellip;
     </div>
@@ -609,18 +609,18 @@
   <div class="file-actions">
 
     <div class="BtnGroup">
-      <a href="/udacity/live-codings-react-nanodegree/raw/master/react-fundamentals/1-comecando-com-react-solution/src/App.js" class="btn btn-sm BtnGroup-item" id="raw-url">Raw</a>
-        <a href="/udacity/live-codings-react-nanodegree/blame/master/react-fundamentals/1-comecando-com-react-solution/src/App.js" class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b">Blame</a>
-      <a href="/udacity/live-codings-react-nanodegree/commits/master/react-fundamentals/1-comecando-com-react-solution/src/App.js" class="btn btn-sm BtnGroup-item" rel="nofollow">History</a>
+      <a href="/udacity/live-codings-react-nanodegree/raw/master/react-fundamentals/1-comecando-com-react-solution/src/ColumnList.js" class="btn btn-sm BtnGroup-item" id="raw-url">Raw</a>
+        <a href="/udacity/live-codings-react-nanodegree/blame/master/react-fundamentals/1-comecando-com-react-solution/src/ColumnList.js" class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b">Blame</a>
+      <a href="/udacity/live-codings-react-nanodegree/commits/master/react-fundamentals/1-comecando-com-react-solution/src/ColumnList.js" class="btn btn-sm BtnGroup-item" rel="nofollow">History</a>
     </div>
 
 
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/udacity/live-codings-react-nanodegree/edit/master/react-fundamentals/1-comecando-com-react-solution/src/App.js" class="inline-form js-update-url-with-hash" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="mGyxdWdy8ri7URHIx5E81Xsqew2csMUA9iGYZVpY4DLzHjiXxsEjfvBdORPV1ilgx2AT+kPVC5AtVhmSVhEwbQ==" /></div>
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/udacity/live-codings-react-nanodegree/edit/master/react-fundamentals/1-comecando-com-react-solution/src/ColumnList.js" class="inline-form js-update-url-with-hash" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="bTyBuq+u6Yi6q1CwXpIWrZZWuKRumBnEwO3JvTkLAgDUs84cpeBdziHupxEjXlGLwJXSRradrjHpy50KuJ9/ww==" /></div>
           <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
             aria-label="Fork this project and edit the file" data-hotkey="e" data-disable-with>
             <svg aria-hidden="true" class="octicon octicon-pencil" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 0 1 1.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"/></svg>
           </button>
-</form>        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/udacity/live-codings-react-nanodegree/delete/master/react-fundamentals/1-comecando-com-react-solution/src/App.js" class="inline-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="GFhYhprmCsggZW0T42e4LnrmNBwGTAJmpRNjlf0hIvyida+cj4fpDnKcgAiRmJfnEx10yfiIu6hrHf7dIUYS/w==" /></div>
+</form>        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/udacity/live-codings-react-nanodegree/delete/master/react-fundamentals/1-comecando-com-react-solution/src/ColumnList.js" class="inline-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="fEwNVs0cxYXFgjjlpAMPM3UuqfvcLsI8ebllIl+kgzuX+0YzNsT6WHF5UlRpEDImGxJBlK4EiV9TznJK5Z7N5w==" /></div>
           <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
             aria-label="Fork this project and delete the file" data-disable-with>
             <svg aria-hidden="true" class="octicon octicon-trashcan" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"/></svg>
@@ -628,9 +628,9 @@
 </form>  </div>
 
   <div class="file-info">
-      84 lines (75 sloc)
+      37 lines (32 sloc)
       <span class="file-info-divider"></span>
-    2.02 KB
+    900 Bytes
   </div>
 </div>
 
@@ -640,343 +640,151 @@
       <table class="highlight tab-size js-file-line-container" data-tab-size="8">
       <tr>
         <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
-        <td id="LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-k">import</span> <span class="pl-smi">React</span>, { <span class="pl-smi">Component</span> } <span class="pl-k">from</span> <span class="pl-s"><span class="pl-pds">&#39;</span>react<span class="pl-pds">&#39;</span></span>;</td>
+        <td id="LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-k">import</span> <span class="pl-smi">React</span> <span class="pl-k">from</span> <span class="pl-s"><span class="pl-pds">&#39;</span>react<span class="pl-pds">&#39;</span></span>;</td>
       </tr>
       <tr>
         <td id="L2" class="blob-num js-line-number" data-line-number="2"></td>
-        <td id="LC2" class="blob-code blob-code-inner js-file-line"><span class="pl-k">import</span> <span class="pl-smi">ColumnList</span> <span class="pl-k">from</span> <span class="pl-s"><span class="pl-pds">&#39;</span>./ColumnList<span class="pl-pds">&#39;</span></span>;</td>
+        <td id="LC2" class="blob-code blob-code-inner js-file-line"><span class="pl-k">import</span> <span class="pl-smi">If</span> <span class="pl-k">from</span> <span class="pl-s"><span class="pl-pds">&#39;</span>./If<span class="pl-pds">&#39;</span></span>;</td>
       </tr>
       <tr>
         <td id="L3" class="blob-num js-line-number" data-line-number="3"></td>
-        <td id="LC3" class="blob-code blob-code-inner js-file-line"><span class="pl-k">import</span> <span class="pl-smi">logo</span> <span class="pl-k">from</span> <span class="pl-s"><span class="pl-pds">&#39;</span>./logo.svg<span class="pl-pds">&#39;</span></span>;</td>
+        <td id="LC3" class="blob-code blob-code-inner js-file-line"><span class="pl-k">import</span> <span class="pl-s"><span class="pl-pds">&#39;</span>./ColumnList.css<span class="pl-pds">&#39;</span></span>;</td>
       </tr>
       <tr>
         <td id="L4" class="blob-num js-line-number" data-line-number="4"></td>
-        <td id="LC4" class="blob-code blob-code-inner js-file-line"><span class="pl-k">import</span> <span class="pl-s"><span class="pl-pds">&#39;</span>./App.css<span class="pl-pds">&#39;</span></span>;</td>
+        <td id="LC4" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L5" class="blob-num js-line-number" data-line-number="5"></td>
-        <td id="LC5" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC5" class="blob-code blob-code-inner js-file-line"><span class="pl-k">const</span> <span class="pl-c1">ColumnList</span> <span class="pl-k">=</span> ({ title, items <span class="pl-k">=</span> [], updateTask, addTask }) <span class="pl-k">=&gt;</span> {</td>
       </tr>
       <tr>
         <td id="L6" class="blob-num js-line-number" data-line-number="6"></td>
-        <td id="LC6" class="blob-code blob-code-inner js-file-line"><span class="pl-k">class</span> <span class="pl-en">App</span> <span class="pl-k">extends</span> <span class="pl-e">Component</span> {</td>
+        <td id="LC6" class="blob-code blob-code-inner js-file-line">  <span class="pl-k">const</span> <span class="pl-c1">currentItems</span> <span class="pl-k">=</span> <span class="pl-smi">items</span>.<span class="pl-en">filter</span>(<span class="pl-smi">_</span> <span class="pl-k">=&gt;</span> <span class="pl-smi">_</span>.<span class="pl-c1">status</span> <span class="pl-k">===</span> title);</td>
       </tr>
       <tr>
         <td id="L7" class="blob-num js-line-number" data-line-number="7"></td>
-        <td id="LC7" class="blob-code blob-code-inner js-file-line">  <span class="pl-en">constructor</span>(<span class="pl-smi">props</span>) {</td>
+        <td id="LC7" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L8" class="blob-num js-line-number" data-line-number="8"></td>
-        <td id="LC8" class="blob-code blob-code-inner js-file-line">    <span class="pl-c1">super</span>(props);</td>
+        <td id="LC8" class="blob-code blob-code-inner js-file-line">  <span class="pl-k">return</span> (</td>
       </tr>
       <tr>
         <td id="L9" class="blob-num js-line-number" data-line-number="9"></td>
-        <td id="LC9" class="blob-code blob-code-inner js-file-line">    <span class="pl-c1">this</span>.<span class="pl-smi">state</span> <span class="pl-k">=</span> {</td>
+        <td id="LC9" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">&lt;</span>div className<span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">&quot;</span>column-list<span class="pl-pds">&quot;</span></span><span class="pl-k">&gt;</span></td>
       </tr>
       <tr>
         <td id="L10" class="blob-num js-line-number" data-line-number="10"></td>
-        <td id="LC10" class="blob-code blob-code-inner js-file-line">      items<span class="pl-k">:</span> []</td>
+        <td id="LC10" class="blob-code blob-code-inner js-file-line">      <span class="pl-k">&lt;</span>h3<span class="pl-k">&gt;</span>{title}<span class="pl-k">&lt;</span><span class="pl-k">/</span>h3<span class="pl-k">&gt;</span></td>
       </tr>
       <tr>
         <td id="L11" class="blob-num js-line-number" data-line-number="11"></td>
-        <td id="LC11" class="blob-code blob-code-inner js-file-line">    }</td>
+        <td id="LC11" class="blob-code blob-code-inner js-file-line">      <span class="pl-k">&lt;</span>If test<span class="pl-k">=</span>{title <span class="pl-k">===</span> <span class="pl-s"><span class="pl-pds">&#39;</span>To Do<span class="pl-pds">&#39;</span></span>}<span class="pl-k">&gt;</span></td>
       </tr>
       <tr>
         <td id="L12" class="blob-num js-line-number" data-line-number="12"></td>
-        <td id="LC12" class="blob-code blob-code-inner js-file-line">    <span class="pl-c1">this</span>.<span class="pl-smi">updateTask</span> <span class="pl-k">=</span> <span class="pl-c1">this</span>.<span class="pl-smi">updateTask</span>.<span class="pl-en">bind</span>(<span class="pl-c1">this</span>);</td>
+        <td id="LC12" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">&lt;</span>form onSubmit<span class="pl-k">=</span>{addTask}<span class="pl-k">&gt;</span></td>
       </tr>
       <tr>
         <td id="L13" class="blob-num js-line-number" data-line-number="13"></td>
-        <td id="LC13" class="blob-code blob-code-inner js-file-line">    <span class="pl-c1">this</span>.<span class="pl-smi">addTask</span> <span class="pl-k">=</span> <span class="pl-c1">this</span>.<span class="pl-smi">addTask</span>.<span class="pl-en">bind</span>(<span class="pl-c1">this</span>);</td>
+        <td id="LC13" class="blob-code blob-code-inner js-file-line">          <span class="pl-k">&lt;</span>input placeholder<span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">&quot;</span>Create new task<span class="pl-pds">&quot;</span></span> type<span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">&quot;</span>text<span class="pl-pds">&quot;</span></span> <span class="pl-k">/</span><span class="pl-k">&gt;</span></td>
       </tr>
       <tr>
         <td id="L14" class="blob-num js-line-number" data-line-number="14"></td>
-        <td id="LC14" class="blob-code blob-code-inner js-file-line">  }</td>
+        <td id="LC14" class="blob-code blob-code-inner js-file-line">          <span class="pl-k">&lt;</span>button type<span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">&quot;</span>submit<span class="pl-pds">&quot;</span></span><span class="pl-k">&gt;</span></td>
       </tr>
       <tr>
         <td id="L15" class="blob-num js-line-number" data-line-number="15"></td>
-        <td id="LC15" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC15" class="blob-code blob-code-inner js-file-line">            Add Task</td>
       </tr>
       <tr>
         <td id="L16" class="blob-num js-line-number" data-line-number="16"></td>
-        <td id="LC16" class="blob-code blob-code-inner js-file-line">  <span class="pl-en">componentWillMount</span>() {</td>
+        <td id="LC16" class="blob-code blob-code-inner js-file-line">          <span class="pl-k">&lt;</span><span class="pl-k">/</span>button<span class="pl-k">&gt;</span></td>
       </tr>
       <tr>
         <td id="L17" class="blob-num js-line-number" data-line-number="17"></td>
-        <td id="LC17" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">const</span> <span class="pl-c1">toDoListItems</span> <span class="pl-k">=</span> <span class="pl-c1">window</span>.<span class="pl-smi">localStorage</span>.<span class="pl-c1">getItem</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>toDoListItems<span class="pl-pds">&#39;</span></span>) <span class="pl-k">||</span> <span class="pl-s"><span class="pl-pds">&#39;</span>[]<span class="pl-pds">&#39;</span></span>;</td>
+        <td id="LC17" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">&lt;</span><span class="pl-k">/</span>form<span class="pl-k">&gt;</span></td>
       </tr>
       <tr>
         <td id="L18" class="blob-num js-line-number" data-line-number="18"></td>
-        <td id="LC18" class="blob-code blob-code-inner js-file-line">    <span class="pl-c1">this</span>.<span class="pl-en">setState</span>({ items<span class="pl-k">:</span> <span class="pl-c1">JSON</span>.<span class="pl-c1">parse</span>(toDoListItems) });</td>
+        <td id="LC18" class="blob-code blob-code-inner js-file-line">      <span class="pl-k">&lt;</span><span class="pl-k">/</span>If<span class="pl-k">&gt;</span></td>
       </tr>
       <tr>
         <td id="L19" class="blob-num js-line-number" data-line-number="19"></td>
-        <td id="LC19" class="blob-code blob-code-inner js-file-line">  }</td>
+        <td id="LC19" class="blob-code blob-code-inner js-file-line">      <span class="pl-k">&lt;</span>ul className<span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">&quot;</span>list-items<span class="pl-pds">&quot;</span></span><span class="pl-k">&gt;</span></td>
       </tr>
       <tr>
         <td id="L20" class="blob-num js-line-number" data-line-number="20"></td>
-        <td id="LC20" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC20" class="blob-code blob-code-inner js-file-line">        {<span class="pl-smi">currentItems</span>.<span class="pl-en">map</span>(<span class="pl-smi">item</span> <span class="pl-k">=&gt;</span> (</td>
       </tr>
       <tr>
         <td id="L21" class="blob-num js-line-number" data-line-number="21"></td>
-        <td id="LC21" class="blob-code blob-code-inner js-file-line">  <span class="pl-en">updateLocalStorage</span>(<span class="pl-smi">items</span>) {</td>
+        <td id="LC21" class="blob-code blob-code-inner js-file-line">          <span class="pl-k">&lt;</span>li key<span class="pl-k">=</span>{<span class="pl-smi">item</span>.<span class="pl-c1">id</span>}<span class="pl-k">&gt;</span></td>
       </tr>
       <tr>
         <td id="L22" class="blob-num js-line-number" data-line-number="22"></td>
-        <td id="LC22" class="blob-code blob-code-inner js-file-line">    <span class="pl-c1">window</span>.<span class="pl-smi">localStorage</span>.<span class="pl-c1">setItem</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>toDoListItems<span class="pl-pds">&#39;</span></span>, <span class="pl-c1">JSON</span>.<span class="pl-c1">stringify</span>(items));</td>
+        <td id="LC22" class="blob-code blob-code-inner js-file-line">            <span class="pl-k">&lt;</span>input</td>
       </tr>
       <tr>
         <td id="L23" class="blob-num js-line-number" data-line-number="23"></td>
-        <td id="LC23" class="blob-code blob-code-inner js-file-line">  }</td>
+        <td id="LC23" class="blob-code blob-code-inner js-file-line">              type<span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">&quot;</span>checkbox<span class="pl-pds">&quot;</span></span></td>
       </tr>
       <tr>
         <td id="L24" class="blob-num js-line-number" data-line-number="24"></td>
-        <td id="LC24" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC24" class="blob-code blob-code-inner js-file-line">              onChange<span class="pl-k">=</span>{(<span class="pl-smi">e</span>) <span class="pl-k">=&gt;</span> <span class="pl-en">updateTask</span>(<span class="pl-smi">e</span>.<span class="pl-c1">target</span>, item)}</td>
       </tr>
       <tr>
         <td id="L25" class="blob-num js-line-number" data-line-number="25"></td>
-        <td id="LC25" class="blob-code blob-code-inner js-file-line">  <span class="pl-en">addTask</span>(<span class="pl-smi">e</span>) {</td>
+        <td id="LC25" class="blob-code blob-code-inner js-file-line">              checked<span class="pl-k">=</span>{title <span class="pl-k">===</span> <span class="pl-s"><span class="pl-pds">&#39;</span>Done<span class="pl-pds">&#39;</span></span>}</td>
       </tr>
       <tr>
         <td id="L26" class="blob-num js-line-number" data-line-number="26"></td>
-        <td id="LC26" class="blob-code blob-code-inner js-file-line">    <span class="pl-smi">e</span>.<span class="pl-c1">preventDefault</span>();</td>
+        <td id="LC26" class="blob-code blob-code-inner js-file-line">            <span class="pl-k">/</span><span class="pl-k">&gt;</span></td>
       </tr>
       <tr>
         <td id="L27" class="blob-num js-line-number" data-line-number="27"></td>
-        <td id="LC27" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">const</span> <span class="pl-c1">value</span> <span class="pl-k">=</span> <span class="pl-smi">e</span>.<span class="pl-c1">target</span>.<span class="pl-c1">querySelector</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>input<span class="pl-pds">&#39;</span></span>).<span class="pl-c1">value</span>;</td>
+        <td id="LC27" class="blob-code blob-code-inner js-file-line">            <span class="pl-k">&lt;</span>span<span class="pl-k">&gt;</span>{<span class="pl-smi">item</span>.<span class="pl-c1">title</span>}<span class="pl-k">&lt;</span><span class="pl-k">/</span>span<span class="pl-k">&gt;</span></td>
       </tr>
       <tr>
         <td id="L28" class="blob-num js-line-number" data-line-number="28"></td>
-        <td id="LC28" class="blob-code blob-code-inner js-file-line">    <span class="pl-c1">this</span>.<span class="pl-en">setState</span>(<span class="pl-smi">prev</span> <span class="pl-k">=&gt;</span> {</td>
+        <td id="LC28" class="blob-code blob-code-inner js-file-line">          <span class="pl-k">&lt;</span><span class="pl-k">/</span>li<span class="pl-k">&gt;</span></td>
       </tr>
       <tr>
         <td id="L29" class="blob-num js-line-number" data-line-number="29"></td>
-        <td id="LC29" class="blob-code blob-code-inner js-file-line">      <span class="pl-k">const</span> { <span class="pl-c1">items</span> <span class="pl-k">=</span> [] } <span class="pl-k">=</span> prev;</td>
+        <td id="LC29" class="blob-code blob-code-inner js-file-line">        ))}</td>
       </tr>
       <tr>
         <td id="L30" class="blob-num js-line-number" data-line-number="30"></td>
-        <td id="LC30" class="blob-code blob-code-inner js-file-line">      <span class="pl-k">const</span> <span class="pl-c1">newTask</span> <span class="pl-k">=</span> {</td>
+        <td id="LC30" class="blob-code blob-code-inner js-file-line">      <span class="pl-k">&lt;</span><span class="pl-k">/</span>ul<span class="pl-k">&gt;</span></td>
       </tr>
       <tr>
         <td id="L31" class="blob-num js-line-number" data-line-number="31"></td>
-        <td id="LC31" class="blob-code blob-code-inner js-file-line">        id<span class="pl-k">:</span> <span class="pl-smi">items</span>.<span class="pl-c1">length</span> <span class="pl-k">+</span> <span class="pl-c1">1</span>,</td>
+        <td id="LC31" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">&lt;</span><span class="pl-k">/</span>div<span class="pl-k">&gt;</span></td>
       </tr>
       <tr>
         <td id="L32" class="blob-num js-line-number" data-line-number="32"></td>
-        <td id="LC32" class="blob-code blob-code-inner js-file-line">        title<span class="pl-k">:</span> value,</td>
+        <td id="LC32" class="blob-code blob-code-inner js-file-line">  );</td>
       </tr>
       <tr>
         <td id="L33" class="blob-num js-line-number" data-line-number="33"></td>
-        <td id="LC33" class="blob-code blob-code-inner js-file-line">        status<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>To Do<span class="pl-pds">&#39;</span></span></td>
+        <td id="LC33" class="blob-code blob-code-inner js-file-line">}</td>
       </tr>
       <tr>
         <td id="L34" class="blob-num js-line-number" data-line-number="34"></td>
-        <td id="LC34" class="blob-code blob-code-inner js-file-line">      };</td>
+        <td id="LC34" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L35" class="blob-num js-line-number" data-line-number="35"></td>
-        <td id="LC35" class="blob-code blob-code-inner js-file-line">      <span class="pl-smi">items</span>.<span class="pl-c1">push</span>(newTask)</td>
+        <td id="LC35" class="blob-code blob-code-inner js-file-line"><span class="pl-k">export</span> <span class="pl-c1">default</span> <span class="pl-smi">ColumnList</span>;</td>
       </tr>
       <tr>
         <td id="L36" class="blob-num js-line-number" data-line-number="36"></td>
-        <td id="LC36" class="blob-code blob-code-inner js-file-line">      <span class="pl-c1">this</span>.<span class="pl-en">updateLocalStorage</span>(items);</td>
-      </tr>
-      <tr>
-        <td id="L37" class="blob-num js-line-number" data-line-number="37"></td>
-        <td id="LC37" class="blob-code blob-code-inner js-file-line">      <span class="pl-k">return</span> { items<span class="pl-k">:</span> items };</td>
-      </tr>
-      <tr>
-        <td id="L38" class="blob-num js-line-number" data-line-number="38"></td>
-        <td id="LC38" class="blob-code blob-code-inner js-file-line">    });</td>
-      </tr>
-      <tr>
-        <td id="L39" class="blob-num js-line-number" data-line-number="39"></td>
-        <td id="LC39" class="blob-code blob-code-inner js-file-line">  }</td>
-      </tr>
-      <tr>
-        <td id="L40" class="blob-num js-line-number" data-line-number="40"></td>
-        <td id="LC40" class="blob-code blob-code-inner js-file-line">
+        <td id="LC36" class="blob-code blob-code-inner js-file-line">
 </td>
-      </tr>
-      <tr>
-        <td id="L41" class="blob-num js-line-number" data-line-number="41"></td>
-        <td id="LC41" class="blob-code blob-code-inner js-file-line">  <span class="pl-en">updateTask</span>(<span class="pl-smi">target</span>, <span class="pl-smi">task</span>) {</td>
-      </tr>
-      <tr>
-        <td id="L42" class="blob-num js-line-number" data-line-number="42"></td>
-        <td id="LC42" class="blob-code blob-code-inner js-file-line">    <span class="pl-c1">this</span>.<span class="pl-en">setState</span>(<span class="pl-k">function</span> (<span class="pl-smi">state</span>, <span class="pl-smi">b</span>) {</td>
-      </tr>
-      <tr>
-        <td id="L43" class="blob-num js-line-number" data-line-number="43"></td>
-        <td id="LC43" class="blob-code blob-code-inner js-file-line">      <span class="pl-k">const</span> { <span class="pl-c1">items</span> <span class="pl-k">=</span> [] } <span class="pl-k">=</span> state;</td>
-      </tr>
-      <tr>
-        <td id="L44" class="blob-num js-line-number" data-line-number="44"></td>
-        <td id="LC44" class="blob-code blob-code-inner js-file-line">      <span class="pl-k">const</span> <span class="pl-c1">s</span> <span class="pl-k">=</span> <span class="pl-smi">items</span>.<span class="pl-en">filter</span>(<span class="pl-smi">_</span> <span class="pl-k">=&gt;</span> <span class="pl-smi">_</span>.<span class="pl-c1">id</span> <span class="pl-k">!==</span> <span class="pl-smi">task</span>.<span class="pl-c1">id</span>);</td>
-      </tr>
-      <tr>
-        <td id="L45" class="blob-num js-line-number" data-line-number="45"></td>
-        <td id="LC45" class="blob-code blob-code-inner js-file-line">      <span class="pl-smi">task</span>.<span class="pl-c1">status</span> <span class="pl-k">=</span> <span class="pl-smi">target</span>.<span class="pl-c1">checked</span> <span class="pl-k">?</span> <span class="pl-s"><span class="pl-pds">&#39;</span>Done<span class="pl-pds">&#39;</span></span> <span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>To Do<span class="pl-pds">&#39;</span></span>;</td>
-      </tr>
-      <tr>
-        <td id="L46" class="blob-num js-line-number" data-line-number="46"></td>
-        <td id="LC46" class="blob-code blob-code-inner js-file-line">      <span class="pl-smi">s</span>.<span class="pl-c1">push</span>(task);</td>
-      </tr>
-      <tr>
-        <td id="L47" class="blob-num js-line-number" data-line-number="47"></td>
-        <td id="LC47" class="blob-code blob-code-inner js-file-line">      <span class="pl-c1">this</span>.<span class="pl-en">updateLocalStorage</span>(s);</td>
-      </tr>
-      <tr>
-        <td id="L48" class="blob-num js-line-number" data-line-number="48"></td>
-        <td id="LC48" class="blob-code blob-code-inner js-file-line">      <span class="pl-k">return</span> { items<span class="pl-k">:</span> s };</td>
-      </tr>
-      <tr>
-        <td id="L49" class="blob-num js-line-number" data-line-number="49"></td>
-        <td id="LC49" class="blob-code blob-code-inner js-file-line">    });</td>
-      </tr>
-      <tr>
-        <td id="L50" class="blob-num js-line-number" data-line-number="50"></td>
-        <td id="LC50" class="blob-code blob-code-inner js-file-line">  }</td>
-      </tr>
-      <tr>
-        <td id="L51" class="blob-num js-line-number" data-line-number="51"></td>
-        <td id="LC51" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L52" class="blob-num js-line-number" data-line-number="52"></td>
-        <td id="LC52" class="blob-code blob-code-inner js-file-line">  <span class="pl-en">render</span>() {</td>
-      </tr>
-      <tr>
-        <td id="L53" class="blob-num js-line-number" data-line-number="53"></td>
-        <td id="LC53" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">const</span> { <span class="pl-c1">items</span> } <span class="pl-k">=</span> <span class="pl-c1">this</span>.<span class="pl-smi">state</span>;</td>
-      </tr>
-      <tr>
-        <td id="L54" class="blob-num js-line-number" data-line-number="54"></td>
-        <td id="LC54" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">const</span> <span class="pl-c1">columns</span> <span class="pl-k">=</span> [</td>
-      </tr>
-      <tr>
-        <td id="L55" class="blob-num js-line-number" data-line-number="55"></td>
-        <td id="LC55" class="blob-code blob-code-inner js-file-line">      { title<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>To Do<span class="pl-pds">&#39;</span></span>, items },</td>
-      </tr>
-      <tr>
-        <td id="L56" class="blob-num js-line-number" data-line-number="56"></td>
-        <td id="LC56" class="blob-code blob-code-inner js-file-line">      { title<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>Done<span class="pl-pds">&#39;</span></span>, items }</td>
-      </tr>
-      <tr>
-        <td id="L57" class="blob-num js-line-number" data-line-number="57"></td>
-        <td id="LC57" class="blob-code blob-code-inner js-file-line">    ];</td>
-      </tr>
-      <tr>
-        <td id="L58" class="blob-num js-line-number" data-line-number="58"></td>
-        <td id="LC58" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L59" class="blob-num js-line-number" data-line-number="59"></td>
-        <td id="LC59" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">return</span> (</td>
-      </tr>
-      <tr>
-        <td id="L60" class="blob-num js-line-number" data-line-number="60"></td>
-        <td id="LC60" class="blob-code blob-code-inner js-file-line">      <span class="pl-k">&lt;</span>div className<span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">&quot;</span>App<span class="pl-pds">&quot;</span></span><span class="pl-k">&gt;</span></td>
-      </tr>
-      <tr>
-        <td id="L61" class="blob-num js-line-number" data-line-number="61"></td>
-        <td id="LC61" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">&lt;</span>div className<span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">&quot;</span>App-header<span class="pl-pds">&quot;</span></span><span class="pl-k">&gt;</span></td>
-      </tr>
-      <tr>
-        <td id="L62" class="blob-num js-line-number" data-line-number="62"></td>
-        <td id="LC62" class="blob-code blob-code-inner js-file-line">          <span class="pl-k">&lt;</span>img src<span class="pl-k">=</span>{logo} className<span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">&quot;</span>App-logo<span class="pl-pds">&quot;</span></span> alt<span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">&quot;</span>logo<span class="pl-pds">&quot;</span></span> <span class="pl-k">/</span><span class="pl-k">&gt;</span></td>
-      </tr>
-      <tr>
-        <td id="L63" class="blob-num js-line-number" data-line-number="63"></td>
-        <td id="LC63" class="blob-code blob-code-inner js-file-line">          <span class="pl-k">&lt;</span>h2<span class="pl-k">&gt;</span>To Do List<span class="pl-k">&lt;</span><span class="pl-k">/</span>h2<span class="pl-k">&gt;</span></td>
-      </tr>
-      <tr>
-        <td id="L64" class="blob-num js-line-number" data-line-number="64"></td>
-        <td id="LC64" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">&lt;</span><span class="pl-k">/</span>div<span class="pl-k">&gt;</span></td>
-      </tr>
-      <tr>
-        <td id="L65" class="blob-num js-line-number" data-line-number="65"></td>
-        <td id="LC65" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">&lt;</span>div className<span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">&quot;</span>App-container<span class="pl-pds">&quot;</span></span><span class="pl-k">&gt;</span></td>
-      </tr>
-      <tr>
-        <td id="L66" class="blob-num js-line-number" data-line-number="66"></td>
-        <td id="LC66" class="blob-code blob-code-inner js-file-line">          <span class="pl-k">&lt;</span>div className<span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">&quot;</span>app-lists<span class="pl-pds">&quot;</span></span><span class="pl-k">&gt;</span></td>
-      </tr>
-      <tr>
-        <td id="L67" class="blob-num js-line-number" data-line-number="67"></td>
-        <td id="LC67" class="blob-code blob-code-inner js-file-line">            {<span class="pl-smi">columns</span>.<span class="pl-en">map</span>(<span class="pl-smi">item</span> <span class="pl-k">=&gt;</span> (</td>
-      </tr>
-      <tr>
-        <td id="L68" class="blob-num js-line-number" data-line-number="68"></td>
-        <td id="LC68" class="blob-code blob-code-inner js-file-line">              <span class="pl-k">&lt;</span>ColumnList</td>
-      </tr>
-      <tr>
-        <td id="L69" class="blob-num js-line-number" data-line-number="69"></td>
-        <td id="LC69" class="blob-code blob-code-inner js-file-line">                key<span class="pl-k">=</span>{<span class="pl-smi">item</span>.<span class="pl-c1">title</span>}</td>
-      </tr>
-      <tr>
-        <td id="L70" class="blob-num js-line-number" data-line-number="70"></td>
-        <td id="LC70" class="blob-code blob-code-inner js-file-line">                title<span class="pl-k">=</span>{<span class="pl-smi">item</span>.<span class="pl-c1">title</span>}</td>
-      </tr>
-      <tr>
-        <td id="L71" class="blob-num js-line-number" data-line-number="71"></td>
-        <td id="LC71" class="blob-code blob-code-inner js-file-line">                items<span class="pl-k">=</span>{<span class="pl-smi">item</span>.<span class="pl-smi">items</span>}</td>
-      </tr>
-      <tr>
-        <td id="L72" class="blob-num js-line-number" data-line-number="72"></td>
-        <td id="LC72" class="blob-code blob-code-inner js-file-line">                updateTask<span class="pl-k">=</span>{<span class="pl-c1">this</span>.<span class="pl-smi">updateTask</span>}</td>
-      </tr>
-      <tr>
-        <td id="L73" class="blob-num js-line-number" data-line-number="73"></td>
-        <td id="LC73" class="blob-code blob-code-inner js-file-line">                addTask<span class="pl-k">=</span>{<span class="pl-c1">this</span>.<span class="pl-smi">addTask</span>}</td>
-      </tr>
-      <tr>
-        <td id="L74" class="blob-num js-line-number" data-line-number="74"></td>
-        <td id="LC74" class="blob-code blob-code-inner js-file-line">              <span class="pl-k">/</span><span class="pl-k">&gt;</span></td>
-      </tr>
-      <tr>
-        <td id="L75" class="blob-num js-line-number" data-line-number="75"></td>
-        <td id="LC75" class="blob-code blob-code-inner js-file-line">            ))}</td>
-      </tr>
-      <tr>
-        <td id="L76" class="blob-num js-line-number" data-line-number="76"></td>
-        <td id="LC76" class="blob-code blob-code-inner js-file-line">          <span class="pl-k">&lt;</span><span class="pl-k">/</span>div<span class="pl-k">&gt;</span></td>
-      </tr>
-      <tr>
-        <td id="L77" class="blob-num js-line-number" data-line-number="77"></td>
-        <td id="LC77" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">&lt;</span><span class="pl-k">/</span>div<span class="pl-k">&gt;</span></td>
-      </tr>
-      <tr>
-        <td id="L78" class="blob-num js-line-number" data-line-number="78"></td>
-        <td id="LC78" class="blob-code blob-code-inner js-file-line">      <span class="pl-k">&lt;</span><span class="pl-k">/</span>div<span class="pl-k">&gt;</span></td>
-      </tr>
-      <tr>
-        <td id="L79" class="blob-num js-line-number" data-line-number="79"></td>
-        <td id="LC79" class="blob-code blob-code-inner js-file-line">    );</td>
-      </tr>
-      <tr>
-        <td id="L80" class="blob-num js-line-number" data-line-number="80"></td>
-        <td id="LC80" class="blob-code blob-code-inner js-file-line">  }</td>
-      </tr>
-      <tr>
-        <td id="L81" class="blob-num js-line-number" data-line-number="81"></td>
-        <td id="LC81" class="blob-code blob-code-inner js-file-line">}</td>
-      </tr>
-      <tr>
-        <td id="L82" class="blob-num js-line-number" data-line-number="82"></td>
-        <td id="LC82" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L83" class="blob-num js-line-number" data-line-number="83"></td>
-        <td id="LC83" class="blob-code blob-code-inner js-file-line"><span class="pl-k">export</span> <span class="pl-c1">default</span> <span class="pl-smi">App</span>;</td>
       </tr>
 </table>
 
@@ -988,7 +796,7 @@
       <ul class="BlobToolbar-dropdown dropdown-menu dropdown-menu-se mt-2">
         <li><a class="js-zeroclipboard dropdown-item" style="cursor:pointer;" id="js-copy-lines" data-original-text="Copy lines">Copy lines</a></li>
         <li><a class="js-zeroclipboard dropdown-item" id= "js-copy-permalink" style="cursor:pointer;" data-original-text="Copy permalink">Copy permalink</a></li>
-        <li><a href="/udacity/live-codings-react-nanodegree/blame/1bfe7cab3778afccc60b86b19c874a6d81e1012d/react-fundamentals/1-comecando-com-react-solution/src/App.js" class="dropdown-item js-update-url-with-hash" id="js-view-git-blame">View git blame</a></li>
+        <li><a href="/udacity/live-codings-react-nanodegree/blame/1bfe7cab3778afccc60b86b19c874a6d81e1012d/react-fundamentals/1-comecando-com-react-solution/src/ColumnList.js" class="dropdown-item js-update-url-with-hash" id="js-view-git-blame">View git blame</a></li>
           <li><a href="/udacity/live-codings-react-nanodegree/issues/new" class="dropdown-item" id="js-new-issue">Open new issue</a></li>
       </ul>
     </div>
@@ -1018,7 +826,7 @@
 <div class="footer container-lg px-3" role="contentinfo">
   <div class="position-relative d-flex flex-justify-between py-6 mt-6 f6 text-gray border-top border-gray-light ">
     <ul class="list-style-none d-flex flex-wrap ">
-      <li class="mr-3">&copy; 2017 <span title="0.22567s from unicorn-3875925829-kj7d2">GitHub</span>, Inc.</li>
+      <li class="mr-3">&copy; 2017 <span title="0.24064s from unicorn-3779522373-lz6tx">GitHub</span>, Inc.</li>
         <li class="mr-3"><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
         <li class="mr-3"><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
         <li class="mr-3"><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
