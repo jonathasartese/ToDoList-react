@@ -28,3 +28,4 @@
 .app-lists .column-list .list-items li input:checked + span {
   text-decoration: line-through;
 }
+
